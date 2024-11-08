@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.gb.optimize_battery" // Adjust if needed to match the package name in AndroidManifest.xml
+
     compileSdkVersion 31
 
     compileOptions {
