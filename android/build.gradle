@@ -22,11 +22,12 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace = "com.gb.optimize_battery"
+    namespace 'com.gb.optimize_battery'
 
     compileSdkVersion 34
 
     defaultConfig {
+        applicationId "com.gb.optimize_battery"
         minSdkVersion 16
         targetSdkVersion 34
     }
