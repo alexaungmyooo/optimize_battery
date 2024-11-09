@@ -24,14 +24,15 @@ apply plugin: 'com.android.library'
 android {
     namespace "com.gb.optimize_battery" // Adjust if needed to match the package name in AndroidManifest.xml
 
-    compileSdkVersion 33
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 34
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    defaultConfig {
-        minSdkVersion 16
     }
 }
