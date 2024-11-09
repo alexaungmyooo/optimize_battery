@@ -1,16 +1,16 @@
 group 'com.gb.optimize_battery'
 version '1.0'
 
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
+// buildscript {
+//     repositories {
+//         google()
+//         mavenCentral()
+//     }
 
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.1'
-    }
-}
+//     dependencies {
+//         classpath 'com.android.tools.build:gradle:8.1.1'
+//     }
+// }
 
 rootProject.allprojects {
     repositories {
@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace "com.gb.optimize_battery" // Adjust if needed to match the package name in AndroidManifest.xml
+    namespace = "com.gb.optimize_battery"
 
     compileSdkVersion 34
 

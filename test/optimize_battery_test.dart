@@ -8,8 +8,9 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   setUp(() {
+    // Return a boolean value to match the expected return type
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
-      return '42';
+      return true; // Simulate a successful response as `bool`
     });
   });
 

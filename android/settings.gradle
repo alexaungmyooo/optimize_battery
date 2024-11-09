@@ -1,1 +1,3 @@
 rootProject.name = 'optimize_battery'
+include ':optimize_battery'
+
